@@ -12,7 +12,7 @@
  Pueden combinarse A,F y H,L para formar el par AF, HL
  
  Registros 16 bits: PC, SP
- 
+ ---------------------------
  **Instrucciones:**
     
 |Mnemonic| Instruction               |
@@ -29,15 +29,15 @@
 | SLA | Shift Left Arithmetic        |
 | SRL | Shift Right Logic            |
 | SLL | Shift Left Logic             |
- 
+--------------------------- 
 **Instrucciones de Carga**
-"
+
 | Instruction |   Opcode   |   |
 |:-----------:|:----------:|---|
-| NOP         | 00 000 000 |   |
-| LD r, s     | 01 rrr sss |   |
-| LD r,n      | 00 rrr 110 |   |
-| LD R,nn     | 00 RRR 000 |   |
-| LD (HL), n  | 00 110 110 |   |
-| LD (HL), r  | 01 110 rrr |   |
-| LD r, (HL)  | 00 rrr 110 |   |"
+| NOP         | ``00 000 000`` |   |
+| LD r, s     | ``01 rrr sss`` |   |
+| LD r,n      | ``00 rrr 110`` |   |
+| LD R,nn     | ``00 RRR 000`` |   |
+| LD (HL), n  | ``00 110 110`` |   |
+| LD (HL), r  | ``01 110 rrr`` |   |
+| LD r, (HL)  | ``00 rrr 110`` |   |
