@@ -31,7 +31,7 @@
 
 **Instrucciones de Carga**
 
-| Instruction |   Opcode          |    |r, s, Q| Reg. |
+| Instruction |   Opcode          |    |r,s    | Reg. |
 |:-----------:|:------------------|:--:|:-----:|:----:|
 | NOP         | ``00 000 000``    |    | B     | 000  |
 | LD r, s     | ``01 rrr sss``    |    | C     | 001  |
