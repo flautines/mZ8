@@ -52,7 +52,8 @@
 | SBC (HL)    | ``10 001 110``    |    | A     | 111  |
 | SBC n       | ``10 001 011`` n  |    |       |      |
 | ADC HL, BC  | ``10 000 010``    |    |       |      |
-| SBC HL, BC  | ``10 001 010``    |    |       |      |
+| SBC HL, BC  | ``10 001 010``                        |
+| INC r       | ``01 010 rrr``    |                   |
 
 
 | Instruction |   Opcode       | Hex |   | Instruction |   Opcode       | Hex |
