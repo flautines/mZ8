@@ -2,16 +2,18 @@
  Emulation of my own fantasy CPU mZ8
  
  mZ8 son las siglas de Mini Z8, una CPU inventada por mí que pretende ser una versión 
- reducida del Z80 de Zilog.
+ reducida del Z80 de Zilog.  Aunque el diseño está influído por el micro Z80 y algunas
+ instrucciones coinciden en código máquina y mnemónico no todas tienen porque coincidir.
  
  Características:
  
  - CPU de 8 bits
  - Puede direccionar 65536 direcciones de memoria (64 KB)
- - Registros 8 bits: A, F, H, L, IX
- - Pueden combinarse A,F y H,L para formar el par AF, HL
- - Registros 16 bits: PC, SP
-
+ - Registros 8 bits: **A, F, B, C, H, L**,
+ - Los registros de 8 bits Pueden combinarse para formar registros de 16 bits **AF, BC, HL**
+ - Registros 16 bits: **PC, SP**
+ - Registro F de banderas: **S Z . . . . V C**
+ 
  **Instrucciones:**
     
 |Mnemonic| Instruction               |
